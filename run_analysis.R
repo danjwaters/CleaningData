@@ -8,13 +8,13 @@
 # From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 # Readin Features as the column variables
-features <- read.table('UCI HAR Dataset/features.txt', stringsAsFactors = FALSE)
+features <- read.table('UCI HAR Dataset/features.txt')
 columns<- features[,2]
 # Identify columns having mean and std deviation
 meanStdColumns <- grep("-mean\\(\\)|-std\\(\\)",columns)
 
 #Read in the activity
-activities <- read.table('UCI HAR Dataset/activity_labels.txt', stringsAsFactors = FALSE)
+activities <- read.table('UCI HAR Dataset/activity_labels.txt')
 
 # Label training data
 trainingData <- read.table("UCI HAR Dataset/train/X_train.txt")
