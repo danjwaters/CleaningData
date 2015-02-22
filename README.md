@@ -10,9 +10,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Download and unzip the data to your current working directy 
 
-The run_analysis.R script modifes the supplied data to create two tidy data sets 
+Execute the run_analysis.R
 
-The following describes the items are completed in the script:
+When executed, the run_analysis.R script  modifies the supplied data to create two tidy data sets 
+
+The following describes the items that are completed in the script:
 
 Creates the HumanActivityTidyDataset by completing:
 
