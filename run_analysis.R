@@ -46,3 +46,4 @@ HumanActivityTidyDataset <- rbind(trainingDatawSubjectsActivities,testDatawSubje
 #Create 2nd data set that takes average of each variable for each activity and each subject
 HumanActivityTidyDataset2 <- aggregate(HumanActivityTidyDataset[,-c(1:2)], by=list(HumanActivityTidyDataset$subject, HumanActivityTidyDataset$activity),mean)
 colnames(HumanActivityTidyDataset2)[1:2] <- c("subject", "activity")
+write.table(HumanActivityTidyDataset2, "HA_TidyDataSet.csv", row.names=F, sep=",")
