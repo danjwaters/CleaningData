@@ -19,7 +19,7 @@ The data from experiments have been carried out with a group of 30 volunteers wi
 
 ### HumanActivityTidyDataset2
 
-*This dataset modifed the HumanActivityTidyDataset by taking an average of each variable for each activity and each subject
+* This dataset modifed the HumanActivityTidyDataset by taking an average of each variable for each activity and each subject
 
 
 
